@@ -5,7 +5,7 @@ def valid_move?(board, index)
   elsif !(index).between?(0, 8)
     puts "You must move to a position within the tic-tac-toe board."
   else false
-    !false
+    true
   end
 end
 
