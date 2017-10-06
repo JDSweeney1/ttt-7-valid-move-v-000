@@ -4,7 +4,8 @@ def valid_move?(board, index)
     puts "The position must be vacant, not currently taken by a player."
   elsif !(index).between?(0, 8)
     puts "You must move to a position within the tic-tac-toe board."
-  else
+  else false
+    !false
   end
 end
 
