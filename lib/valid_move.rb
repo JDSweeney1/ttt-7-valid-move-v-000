@@ -2,6 +2,8 @@
 def valid_move?(board, index)
   if position_taken?(board, index)
     puts "The position must be vacant, not currently taken by a player."
+  elsif (index).between?(0, 8)
+    
   end
 end
 
