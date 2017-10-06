@@ -2,7 +2,7 @@
 def valid_move
   if position_taken?(board, index)
     puts "The position must be vacant, not currently taken by a player."
-
+  end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
